@@ -1,0 +1,51 @@
+th {
+  border: 2px solid rgba(189, 195, 199, 0.05);
+  color: #ffe369;
+  font-weight: bold;
+  background-color: rgba(110, 0, 0, 0.4);
+  padding: 10px;
+}
+
+table {
+  text-align: center;
+  border-collapse: collapse;
+  width: 100%;
+  background: linear-gradient(#6e0000, antiquewhite);
+  border: 4px solid black;
+}
+
+tr td:first-child {
+  color: white;
+  font-weight: bold;
+}
+
+.first.odd:nth-child(odd) {
+  background-color: rgba(143, 148, 251, 0.1);
+}
+
+td:not(.first) {
+  padding: 5px 50px;
+  color: midnightblue;
+  /*background-color: black;*/
+  border: 2px solid rgba(189, 195, 199, 0.05);
+}
+
+.condition {
+  color: white;
+  background-color: darkred;
+}
+
+td:not(.condition):not(.first) {
+  color: midnightblue;
+  background-color: antiquewhite;
+}
+
+a {
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+}
+
+#last td {
+  padding: 10px;
+}

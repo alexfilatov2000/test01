@@ -1,0 +1,25 @@
+.box {
+	position: relative;
+	top: 20px;
+	left: 50%;
+	transform: translateX(-50%);
+	border-bottom: 1px solid black;
+	border-top: 1px solid black;
+	text-align: center;
+	height: 50px;
+	width: calc(100% - 200px);
+	line-height: 50px;
+}
+
+.box::before {
+	content: ' ';
+	position: absolute;
+	z-index: -1;
+	height: 100px;
+	top: -25px;
+	left: 25px;
+	right: 25px;
+
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+}

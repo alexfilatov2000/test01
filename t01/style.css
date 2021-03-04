@@ -1,0 +1,38 @@
+table,
+td {
+  border: 1px solid white;
+  border-collapse: collapse;
+}
+
+th {
+  background-color: black;
+}
+#zero th {
+  color: white;
+}
+td {
+  text-align: center;
+}
+#firstTr {
+  background-color: coral;
+}
+
+#secondTr {
+  background-color: green;
+}
+
+#thirdTr {
+  background-color: blue;
+}
+
+#fourthTr {
+  background-color: yellow;
+}
+
+#fifthTr {
+  background-color: red;
+}
+
+#sixthTr {
+  background-color: purple;
+}
